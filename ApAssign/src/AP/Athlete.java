@@ -2,10 +2,10 @@ package AP;
 
 //Bhanu Karthik Kamaraju is the Author
 //This class is for Athlete which extends from Participant.class, with the type for identifying different sports.
-public class Athelette extends Participant{
+public class Athlete extends Participant{
 	private int points = 0;
 	private String type; 
-	protected Athelette(String ID, String name, int age, String state, String type) {
+	protected Athlete(String ID, String name, int age, String state, String type) {
 		super(ID, name, age, state);
 		this.type = type;
 	}
